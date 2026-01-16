@@ -1,0 +1,2281 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>小試身手 | C++與演算法</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../basic_problem/zj_a003.html" />
+    
+    
+    <link rel="prev" href="../cpp/practice_save_withdraw_sol.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="4" data-basepath=".." data-revision="1768490988942">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         課程介紹
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="0.1" data-path="why_learn_coding.html">
+            
+                
+                    <a href="../why_learn_coding.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>0.1.</b>
+                        
+                         為什麼要學程式設計?
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="contributor/README.html">
+            
+                
+                    <a href="../contributor/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         關於作者
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="what_is_program/README.html">
+            
+                
+                    <a href="../what_is_program/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         程式是什麼
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="cpp/README.html">
+            
+                
+                    <a href="../cpp/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         C++ 入門
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.1" data-path="devcpp/README.html">
+            
+                
+                    <a href="../devcpp/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                         編輯器Dev-C++
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2" data-path="cpp/basic_structure.html">
+            
+                
+                    <a href="../cpp/basic_structure.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                         基本架構與輸出
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.2.1" data-path="cpp/divide.html">
+            
+                
+                    <a href="../cpp/divide.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.1.</b>
+                        
+                         除法 /
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.2.2" data-path="cpp/mod_operator.html">
+            
+                
+                    <a href="../cpp/mod_operator.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.2.</b>
+                        
+                         取餘數 %
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3" data-path="cpp/variable.html">
+            
+                
+                    <a href="../cpp/variable.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                         變數
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.1" data-path="cpp/variable_type_and_declare.html">
+            
+                
+                    <a href="../cpp/variable_type_and_declare.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                         變數型態 與 變數宣告
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.2" data-path="cpp/variable_print.html">
+            
+                
+                    <a href="../cpp/variable_print.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                         輸出變數值
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.3" data-path="cpp/variable_assignment.html">
+            
+                
+                    <a href="../cpp/variable_assignment.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                         指派變數值
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.4" data-path="cpp/variable_input.html">
+            
+                
+                    <a href="../cpp/variable_input.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.</b>
+                        
+                         輸入變數值
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.4.1" data-path="cpp/practice_i_want_to_be_tall.html">
+            
+                
+                    <a href="../cpp/practice_i_want_to_be_tall.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.1.</b>
+                        
+                         題目 - 我想長高
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.4.1.1" data-path="cpp/practice_i_want_to_be_tall_sol.html">
+            
+                
+                    <a href="../cpp/practice_i_want_to_be_tall_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.4.2" data-path="cpp/variable_input_practice_wallet.html">
+            
+                
+                    <a href="../cpp/variable_input_practice_wallet.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.2.</b>
+                        
+                         題目 - 剩多少錢?
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.4.2.1" data-path="cpp/variable_input_practice_wallet_sol.html">
+            
+                
+                    <a href="../cpp/variable_input_practice_wallet_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.2.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.4.3" data-path="cpp/practice_time_converter.html">
+            
+                
+                    <a href="../cpp/practice_time_converter.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.3.</b>
+                        
+                         題目 - 等我一下
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.4.3.1" data-path="cpp/practice_time_converter_sol.html">
+            
+                
+                    <a href="../cpp/practice_time_converter_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.4.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.5" data-path="cpp/repeat_input.html">
+            
+                
+                    <a href="../cpp/repeat_input.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.</b>
+                        
+                         重複輸入
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.5.1" data-path="cpp/practice_x_polynomial.html">
+            
+                
+                    <a href="../cpp/practice_x_polynomial.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.1.</b>
+                        
+                         題目 - 多項式計算
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.5.1.1" data-path="cpp/practice_x_polynomial_sol.html">
+            
+                
+                    <a href="../cpp/practice_x_polynomial_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.5.2" data-path="cpp/practice_zj_a001.html">
+            
+                
+                    <a href="../cpp/practice_zj_a001.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.2.</b>
+                        
+                         題目 - 哈囉
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.5.2.1" data-path="cpp/practice_zj_a001_sol.html">
+            
+                
+                    <a href="../cpp/practice_zj_a001_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.5.2.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.3.6" data-path="cpp/variable_swap.html">
+            
+                
+                    <a href="../cpp/variable_swap.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.6.</b>
+                        
+                         思考問題：變數交換
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.3.6.1" data-path="cpp/variable_swap_sol.html">
+            
+                
+                    <a href="../cpp/variable_swap_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.6.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.4" data-path="cpp/if_condition.html">
+            
+                
+                    <a href="../cpp/if_condition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                         if條件式
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.4.1" data-path="cpp/if_else_condition.html">
+            
+                
+                    <a href="../cpp/if_else_condition.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.1.</b>
+                        
+                         if - else條件式
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5" data-path="cpp/condition_operator.html">
+            
+                
+                    <a href="../cpp/condition_operator.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                         條件運算
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.1" data-path="cpp/relational_operator.html">
+            
+                
+                    <a href="../cpp/relational_operator.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.1.</b>
+                        
+                         關係運算
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.1.1" data-path="cpp/practice_is_multiple.html">
+            
+                
+                    <a href="../cpp/practice_is_multiple.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.1.1.</b>
+                        
+                         題目 - 判斷倍數
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.1.1.1" data-path="cpp/practice_is_multiple_sol.html">
+            
+                
+                    <a href="../cpp/practice_is_multiple_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.1.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5.2" data-path="cpp/logic_operator.html">
+            
+                
+                    <a href="../cpp/logic_operator.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.2.</b>
+                        
+                         邏輯運算
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5.3" data-path="cpp/practice_marriageable.html">
+            
+                
+                    <a href="../cpp/practice_marriageable.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.3.</b>
+                        
+                         題目 - 我能結婚嗎?
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.3.1" data-path="cpp/practice_marriageable_sol.html">
+            
+                
+                    <a href="../cpp/practice_marriageable_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5.4" data-path="cpp/practice_triangle_edge.html">
+            
+                
+                    <a href="../cpp/practice_triangle_edge.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.4.</b>
+                        
+                         題目 - 三角形邊長
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.4.1" data-path="cpp/practice_triangle_edge_sol.html">
+            
+                
+                    <a href="../cpp/practice_triangle_edge_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.4.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.5.5" data-path="cpp/practice_zj_d066.html">
+            
+                
+                    <a href="../cpp/practice_zj_d066.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.5.</b>
+                        
+                         題目 - 上學去吧！
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.5.5.1" data-path="cpp/practice_zj_d066_sol.html">
+            
+                
+                    <a href="../cpp/practice_zj_d066_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.5.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.6" data-path="cpp/nested_if.html">
+            
+                
+                    <a href="../cpp/nested_if.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.6.</b>
+                        
+                         巢狀 if
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7" data-path="cpp/loop.html">
+            
+                
+                    <a href="../cpp/loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.</b>
+                        
+                         迴圈
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.7.1" data-path="cpp/while_loop.html">
+            
+                
+                    <a href="../cpp/while_loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.1.</b>
+                        
+                         while迴圈
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.2" data-path="cpp/while_sequence.html">
+            
+                
+                    <a href="../cpp/while_sequence.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.2.</b>
+                        
+                         while 與 數列
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.3" data-path="cpp/practice_print_all_factor.html">
+            
+                
+                    <a href="../cpp/practice_print_all_factor.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.3.</b>
+                        
+                         題目 - 找出所有因數
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.7.3.1" data-path="cpp/practice_print_all_factor_sol.html">
+            
+                
+                    <a href="../cpp/practice_print_all_factor_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.4" data-path="cpp/practice_isprime.html">
+            
+                
+                    <a href="../cpp/practice_isprime.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.4.</b>
+                        
+                         題目 - 判斷質數
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.7.4.1" data-path="cpp/practice_isprime_sol.html">
+            
+                
+                    <a href="../cpp/practice_isprime_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.4.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.5" data-path="cpp/practice_how_many_digits.html">
+            
+                
+                    <a href="../cpp/practice_how_many_digits.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.5.</b>
+                        
+                         題目 - 有幾位數
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.7.5.1" data-path="cpp/practice_how_many_digits_sol.html">
+            
+                
+                    <a href="../cpp/practice_how_many_digits_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.5.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.6" data-path="cpp/loop_break.html">
+            
+                
+                    <a href="../cpp/loop_break.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.6.</b>
+                        
+                         跳出迴圈 break
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.7.7" data-path="basic_problem/uva_12149.html">
+            
+                
+                    <a href="../basic_problem/uva_12149.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.7.</b>
+                        
+                         題目 - Feynman
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.7.7.1" data-path="basic_problem/uva_12149_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_12149_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.7.7.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8" data-path="cpp/array.html">
+            
+                
+                    <a href="../cpp/array.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.</b>
+                        
+                         陣列
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.8.1" data-path="cpp/practice_array_reverse.html">
+            
+                
+                    <a href="../cpp/practice_array_reverse.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.1.</b>
+                        
+                         題目 - 翻轉吧，身高！
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.8.1.1" data-path="cpp/practice_array_reverse_sol.html">
+            
+                
+                    <a href="../cpp/practice_array_reverse_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8.2" data-path="cpp/practice_id_query.html">
+            
+                
+                    <a href="../cpp/practice_id_query.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.2.</b>
+                        
+                         題目 - 成績查詢系統
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.8.2.1" data-path="cpp/practice_id_query_sol.html">
+            
+                
+                    <a href="../cpp/practice_id_query_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.2.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8.3" data-path="basic_problem/find_biggest_smallest.html">
+            
+                
+                    <a href="../basic_problem/find_biggest_smallest.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.3.</b>
+                        
+                         題目 - 關注學生
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.8.3.1" data-path="basic_problem/find_biggest_smallest_sol.html">
+            
+                
+                    <a href="../basic_problem/find_biggest_smallest_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3.8.4" data-path="cpp/practice_save_withdraw.html">
+            
+                
+                    <a href="../cpp/practice_save_withdraw.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.4.</b>
+                        
+                         題目 - 存存提提
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="3.8.4.1" data-path="cpp/practice_save_withdraw_sol.html">
+            
+                
+                    <a href="../cpp/practice_save_withdraw_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.8.4.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4" data-path="basic_problem/README.html">
+            
+                
+                    <a href="../basic_problem/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         小試身手
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1" data-path="basic_problem/zj_a003.html">
+            
+                
+                    <a href="../basic_problem/zj_a003.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                         ZeroJudge - 兩光法師占卜術
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.1.1" data-path="basic_problem/zj_a003_sol.html">
+            
+                
+                    <a href="../basic_problem/zj_a003_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.2" data-path="basic_problem/uva_10071.html">
+            
+                
+                    <a href="../basic_problem/uva_10071.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                         UVA - Back to High School Physics
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.2.1" data-path="basic_problem/uva_10071_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_10071_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.3" data-path="basic_problem/leap_year.html">
+            
+                
+                    <a href="../basic_problem/leap_year.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                         判斷閏年
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.3.1" data-path="basic_problem/leap_year_sol.html">
+            
+                
+                    <a href="../basic_problem/leap_year_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.4" data-path="basic_problem/uva_12468.html">
+            
+                
+                    <a href="../basic_problem/uva_12468.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                         UVA - Zapping
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.4.1" data-path="basic_problem/uva_12468_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_12468_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.5" data-path="basic_problem/uva_12650.html">
+            
+                
+                    <a href="../basic_problem/uva_12650.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                         UVA - Dangerous Dive
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.5.1" data-path="basic_problem/uva_12650_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_12650_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.6" data-path="basic_problem/uva_591.html">
+            
+                
+                    <a href="../basic_problem/uva_591.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                         UVA - Box of Bricks
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.6.1" data-path="basic_problem/uva_591_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_591_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.7" data-path="basic_problem/zj_a053.html">
+            
+                
+                    <a href="../basic_problem/zj_a053.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                         ZeroJudge - Sagit&#39;s 計分程式
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.7.1" data-path="basic_problem/zj_a053_sol.html">
+            
+                
+                    <a href="../basic_problem/zj_a053_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.8" data-path="basic_problem/factorization.html">
+            
+                
+                    <a href="../basic_problem/factorization.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                         質因數分解
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.8.1" data-path="basic_problem/factorization_sol.html">
+            
+                
+                    <a href="../basic_problem/factorization_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.9" data-path="basic_problem/3n_plus_1.html">
+            
+                
+                    <a href="../basic_problem/3n_plus_1.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.</b>
+                        
+                         3n+1猜想
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.9.1" data-path="basic_problem/3n_plus_1_testdata.html">
+            
+                
+                    <a href="../basic_problem/3n_plus_1_testdata.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.1.</b>
+                        
+                         測試資料
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.9.2" data-path="basic_problem/3n_plus_1_sol.html">
+            
+                
+                    <a href="../basic_problem/3n_plus_1_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.9.2.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="4.10" data-path="basic_problem/uva_100.html">
+            
+                
+                    <a href="../basic_problem/uva_100.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.10.</b>
+                        
+                         UVA - 3n+1
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="4.10.1" data-path="basic_problem/uva_100_sol.html">
+            
+                
+                    <a href="../basic_problem/uva_100_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.10.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="cpp02/README.html">
+            
+                
+                    <a href="../cpp02/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         C++ 基礎
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.1" data-path="cpp02/if_elif_else.html">
+            
+                
+                    <a href="../cpp02/if_elif_else.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                         單選判斷 if - else if - else
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.2" data-path="cpp02/for_loop.html">
+            
+                
+                    <a href="../cpp02/for_loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                         for迴圈
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.3" data-path="cpp02/expression_alias.html">
+            
+                
+                    <a href="../cpp02/expression_alias.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                         運算式簡寫
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4" data-path="cpp02/nested_loop.html">
+            
+                
+                    <a href="../cpp02/nested_loop.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.</b>
+                        
+                         巢狀迴圈
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.4.1" data-path="cpp02/practice_rectangular_triangle_maker.html">
+            
+                
+                    <a href="../cpp02/practice_rectangular_triangle_maker.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.1.</b>
+                        
+                         題目 - 直角三角形製造機
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.4.1.1" data-path="cpp02/practice_rectangular_triangle_maker_sol.html">
+            
+                
+                    <a href="../cpp02/practice_rectangular_triangle_maker_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4.2" data-path="cpp02/practice_pyramid_maker.html">
+            
+                
+                    <a href="../cpp02/practice_pyramid_maker.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.2.</b>
+                        
+                         題目 - 金字塔製造機
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.4.2.1" data-path="cpp02/practice_pyramid_maker_sol.html">
+            
+                
+                    <a href="../cpp02/practice_pyramid_maker_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.2.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.4.3" data-path="cpp02/practice_multiplication_table.html">
+            
+                
+                    <a href="../cpp02/practice_multiplication_table.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.3.</b>
+                        
+                         題目 - 九九乘法表
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.4.3.1" data-path="cpp02/practice_multiplication_table_sol.html">
+            
+                
+                    <a href="../cpp02/practice_multiplication_table_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.4.3.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.5" data-path="cpp02/selection_sort.html">
+            
+                
+                    <a href="../cpp02/selection_sort.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.5.</b>
+                        
+                         選擇排序法
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.6" data-path="cpp02/function.html">
+            
+                
+                    <a href="../cpp02/function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.</b>
+                        
+                         函式
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.6.1" data-path="cpp02/built_in_function.html">
+            
+                
+                    <a href="../cpp02/built_in_function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.1.</b>
+                        
+                         內建函式
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.6.2" data-path="cpp02/user_defined_function.html">
+            
+                
+                    <a href="../cpp02/user_defined_function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.6.2.</b>
+                        
+                         自訂函式
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.7" data-path="cpp02/recursion.html">
+            
+                
+                    <a href="../cpp02/recursion.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.</b>
+                        
+                         遞迴
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.7.1" data-path="cpp02/fibonacci.html">
+            
+                
+                    <a href="../cpp02/fibonacci.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.1.</b>
+                        
+                         費氏數列
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.7.2" data-path="cpp02/euclidean_algorithm.html">
+            
+                
+                    <a href="../cpp02/euclidean_algorithm.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.7.2.</b>
+                        
+                         輾轉相除法
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.8" data-path="cpp02/character_and_string.html">
+            
+                
+                    <a href="../cpp02/character_and_string.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.</b>
+                        
+                         文字處理 - 字元與字串
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.8.1" data-path="cpp02/character.html">
+            
+                
+                    <a href="../cpp02/character.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.1.</b>
+                        
+                         字元(char)
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.8.1.1" data-path="cpp02/escape_character.html">
+            
+                
+                    <a href="../cpp02/escape_character.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.1.1.</b>
+                        
+                         跳脫字元
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.8.2" data-path="cpp02/string.html">
+            
+                
+                    <a href="../cpp02/string.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.2.</b>
+                        
+                         字串(string)
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.8.3" data-path="cpp02/text_function.html">
+            
+                
+                    <a href="../cpp02/text_function.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.8.3.</b>
+                        
+                         文字處理函式
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.9" data-path="cpp02/greedy.html">
+            
+                
+                    <a href="../cpp02/greedy.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.9.</b>
+                        
+                         貪婪演算法(Greedy)
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5.10" data-path="cpp02/stack.html">
+            
+                
+                    <a href="../cpp02/stack.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.</b>
+                        
+                         堆疊(stack) 資料結構
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.10.1" data-path="cpp02/practice_stack_stupid.html">
+            
+                
+                    <a href="../cpp02/practice_stack_stupid.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.1.</b>
+                        
+                         題目 - 小呆的決心
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        
+        <li class="chapter " data-level="5.10.1.1" data-path="cpp02/practice_stack_stupid_sol.html">
+            
+                
+                    <a href="../cpp02/practice_stack_stupid_sol.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.10.1.1.</b>
+                        
+                         解答
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >C++與演算法</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_175">
+                    
+                        <h1 id="">小試身手</h1>
+<ul>
+<li>Lucky貓的 UVA（ACM）園地 <a href="http://luckycat.kshs.kh.edu.tw/" target="_blank">http://luckycat.kshs.kh.edu.tw/</a></li>
+</ul>
+<center><img src="Icpc_logo.png" alt=""></center>
+
+<p>　　ACM國際大學生程式設計競賽（英語：ACM International Collegiate Programming Contest, ICPC）是由美國計算機協會（ACM）主辦的，一項旨在展示大學生創新能力、團隊精神和在壓力下編寫程序、分析和解決問題能力的年度競賽。經過30多年的發展，ACM國際大學生程式設計競賽已經發展成為最具影響力的大學生計算機競賽。</p>
+<p>本網站收集了許多ACM題目的翻譯，且有依照難度給予1星~4星。</p>
+<p><br></p>
+<ul>
+<li>UVa Online Judge <a href="http://uva.onlinejudge.org/" target="_blank">http://uva.onlinejudge.org/</a></li>
+</ul>
+<p>收集ACM題目的線上批改系統。是Lucky Cat翻譯題目的原出處。</p>
+<p><br></p>
+<ul>
+<li>高中生解題系統 <a href="http://zerojudge.tw/" target="_blank">http://zerojudge.tw/</a></li>
+</ul>
+<p>國人架設的線上題庫、批改系統。較難辨別題目難易度。</p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../cpp/practice_save_withdraw_sol.html" class="navigation navigation-prev " aria-label="Previous page: 解答"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../basic_problem/zj_a003.html" class="navigation navigation-next " aria-label="Next page: ZeroJudge - 兩光法師占卜術"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
